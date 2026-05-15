@@ -127,19 +127,21 @@
       </div>
     </div>
 
-    <!-- контакти -->
-    <div id="page-contact" class="page-view">
+   <!-- відгуки -->
+    <div id="page-reviews" class="page-view">
       <div class="simple-page">
-        <h2>Зв'яжіться з нами</h2>
-        <div id="success-msg" style="display:none; color:green; margin-bottom:16px;">Форму надіслано!</div>
-        <form id="contact-form">
+        <h2>Відгуки</h2>
+ 
+        <div id="success-msg" style="display:none; color:green; margin-bottom:16px;">Дякуємо за відгук!</div>
+ 
+        <form id="review-form">
           <input type="text" id="name" placeholder="Ваше ім'я">
           <div id="name-error" class="error-msg"></div>
-          <input type="text" id="email" placeholder="Ваш Email">
-          <div id="email-error" class="error-msg"></div>
-          <textarea id="message" placeholder="Повідомлення"></textarea>
-          <button type="submit" class="btn-dark">Надіслати</button>
+          <textarea id="message" placeholder="Ваш відгук"></textarea>
+          <div id="message-error" class="error-msg"></div>
+          <button type="submit" class="btn-dark">Надіслати відгук</button>
         </form>
+        
         <div id="reviews-container">
           <h4>Останні відгуки</h4>
           <ul id="reviews-list"></ul>

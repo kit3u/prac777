@@ -23,11 +23,12 @@ function navigate(page, productId) {
     fetchProducts();
   }
  
-  if (page === 'contact') {
-    initContactPage();
+  if (page === 'reviews') {
+    initReviewsPage();
   }
 }
  
 function openProduct(id) {
   navigate('product', id);
 }
+ 
